@@ -31,8 +31,8 @@ SOFTWARE. */
  */
 function LINKEDINPROFILE(query, company, index = 1) {
 
-  const apiKey = "yourApiKey";
-  const searchEngineId = "yourSearchEngineId";
+  const apiKey = "AIzaSyC6MFlr5k97HC_IN2xiDQqPRG6QHiVLbwc";
+  const searchEngineId = "51a24b4ce8ce543f0";
 
   const urlQuery =
     `https://www.googleapis.com/customsearch/v1?key={{apiKey}}&cx={{searchEngineId}}&q={{query}}&num=10`;
